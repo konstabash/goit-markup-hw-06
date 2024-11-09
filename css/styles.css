@@ -109,6 +109,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* padding: 24px 0; */
   display: inline-block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -130,12 +131,22 @@ button {
   color: #404bbf;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
 }
 
 .menu-open-btn {
@@ -296,6 +307,11 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.title-order-button:hover,
+.title-order-button:focus {
+  background-color: #404bbf;
+}
+
 .advantages-flex {
   display: flex;
   flex-wrap: wrap;
@@ -417,6 +433,14 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-list:hover .team-social-link {
+  background-color: #404bbf;
+}
+
+.team-social-link:focus {
+  background-color: #404bbf;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -431,6 +455,8 @@ button {
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
+  /* row-gap: 48px;
+  column-gap: 24px; */
   gap: 48px;
   margin-top: 0;
 }
@@ -615,12 +641,19 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.footer-sub-button:hover,
+.footer-sub-button:focus {
+  background-color: #31d0aa;
+}
 
 .footer-sub-icon {
   fill: #fff;
   margin-left: 16px;
 }
+
+/* .footer-sub-box {
+  margin-left: auto;
+} */
 
 .footer-form {
   display: flex;
@@ -1024,16 +1057,6 @@ button {
     gap: 40px;
   }
 
-  .header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf;
-}
-
-.header-address-link:hover,
-.header-address-link:focus {
-  color: #404bbf;
-}
-
   .title-section {
     padding: 188px 0;
     max-width: 1440px;
@@ -1042,11 +1065,6 @@ button {
   .title {
     margin-bottom: 48px;
   }
-
-  .title-order-button:hover,
-.title-order-button:focus {
-  background-color: #404bbf;
-
 
   .advantages-icon-block {
     display: flex;
@@ -1081,13 +1099,6 @@ button {
   .team-list {
     flex-basis: calc((100% - 72px) / 4);
   }
-
-  .team-list:hover .team-social-link {
-  background-color: #404bbf;
-
-  .team-social-link:focus {
-  background-color: #404bbf;
-}
 
   .portfolio-list {
     flex-basis: calc((100% - 48px) / 3);
@@ -1131,9 +1142,4 @@ button {
   .footer-social-link:focus {
     background-color: #31d0aa;
   }
-
-  .footer-sub-button:hover,
-.footer-sub-button:focus {
-  background-color: #31d0aa;
-}
 }
