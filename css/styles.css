@@ -1082,6 +1082,11 @@ button {
     padding-bottom: 100px;
   }
 
+  .footer-flex {
+    flex-wrap: nowrap;
+    gap: unset;
+  }
+
   .footer-logo-container {
     margin-right: 120px;
   }
