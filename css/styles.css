@@ -847,10 +847,6 @@ button {
   color: #4d5ae5;
 }
 
-.user-privacy-text {
-  /* display: inline-flex; */
-}
-
 /* Tablet version */
 @media screen and (min-width: 768px) {
   .container {
